@@ -1,0 +1,116 @@
+body{
+    background-image: url(https://images3.alphacoders.com/135/1350069.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 90vh;
+    width: 50vh;
+   background-color: beige;
+   border-radius: 2.5%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+.Titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.usuario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: darkgrey;
+    width: 80%;
+    margin-left: 5%;
+    
+}
+.olvidar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(139, 139, 139);
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+.boton{
+    background: linear-gradient(
+        217deg,
+        rgba(255, 0, 0, 0.8),
+        rgba(255, 0, 0, 0) 70.71%
+      ),
+      linear-gradient(127deg, rgba(10, 33, 134, 0.8), rgba(235, 16, 187, 0) 70.71%),
+      linear-gradient(336deg, rgba(236, 107, 183, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    width: 80%;
+    height: 8%;
+    margin-top: 5%;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entrar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-size: small;
+    
+    background-color: red;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.otra_manera{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(139, 139, 139);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+}
+
+
+.entrar_signup{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(139, 139, 139);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlace{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

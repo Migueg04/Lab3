@@ -1,0 +1,167 @@
+body{
+    background-image: url(https://images3.alphacoders.com/135/1350069.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 85vh;
+    width: 170vh;
+   background-color: beige;
+   border-radius: 2.5%;
+   display: flex;
+   
+   justify-content: center;
+   align-items: flex-start;
+}
+
+img{
+    height: 100%;
+    width: 65%;
+}
+.registro{
+    height: 100%;
+    width: 35%;
+   background-color: beige;
+   border-radius: 2.5%;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.perfil{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.info{
+    display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+   margin-bottom: 5px;
+}
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2px;
+    color: gray;
+    font-size: small;
+}
+
+.usuario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: darkgrey;
+    width: 80%;
+    margin-left: 5%;
+    
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.boton{
+    background: linear-gradient(
+        217deg,
+        rgba(255, 0, 0, 0.8),
+        rgba(255, 0, 0, 0) 70.71%
+      ),
+      linear-gradient(127deg, rgba(10, 33, 134, 0.8), rgba(235, 16, 187, 0) 70.71%),
+      linear-gradient(336deg, rgba(236, 107, 183, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    width: 90%;
+    height: 50%;
+    margin-top: 5%;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-size: small;
+    background-color: red;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.olvidar{
+    width: 90%;
+    height: 50%;
+    margin-top: 5%;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(139, 139, 139);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final{
+   
+    width: 80%;
+    height: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.superpos{
+    
+    width: 80%;
+    height: 92%;
+   
+    position: absolute;
+    display: flex;
+    
+    justify-content: start;
+    align-items: end;
+    
+}
+
+.flecha{
+    width: 80px;
+    height: 80px;
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    rotate: -90deg;
+    margin-right: 5px;
+}
+.fotografo{
+    width: 80px;
+    height: 80px;
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    
+}
+
