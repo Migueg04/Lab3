@@ -9,14 +9,14 @@ body{
 }
 
 .container{
-    height: 85vh;
-    width: 170vh;
+    height: 90vh;
+    width: 180vh;
    background-color: beige;
    border-radius: 2.5%;
    display: flex;
    
-   justify-content: center;
-   align-items: flex-start;
+   justify-content: flex-start;
+   align-items: flex-end;
 }
 
 img{
@@ -96,7 +96,7 @@ input{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     font-size: small;
-    background-color: red;
+    
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -130,14 +130,15 @@ input{
 
 .superpos{
     
-    width: 80%;
-    height: 92%;
+    width: 20%;
+    height: 10%;
    
     position: absolute;
     display: flex;
     
     justify-content: start;
     align-items: end;
+    
     
 }
 
@@ -152,6 +153,7 @@ input{
     align-items: end;
     rotate: -90deg;
     margin-right: 5px;
+    margin-top: 20px;
 }
 .fotografo{
     width: 80px;
@@ -162,6 +164,13 @@ input{
     flex-direction: column;
     justify-content: start;
     align-items: end;
+    
+}
+
+.spider{
+    
+    width: 90%;
+    
     
 }
 
