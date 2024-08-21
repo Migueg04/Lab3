@@ -168,9 +168,16 @@ input{
 }
 
 .spider{
-    
     width: 90%;
-    
     
 }
 
+.user{
+    height: 20px;
+    width: 20px;
+}
+
+.lock{
+    height: 20px;
+    width: 20px;
+}
